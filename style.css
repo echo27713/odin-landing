@@ -1,8 +1,146 @@
 
+body {
+    font-family: "Capitolium 2","SF Pro Text", system-ui, -apple-system,"system-ui"  ,'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+/*
 div {
   border-color: red;
   border-style: solid;
   border-width: 1px;
 }
+*/
+
+.hero, .header {
+    background-color:#1F2937;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: center;
+
+}
+
+.hero-left, .hero-right {
+    flex: 1;
+    margin: 16px;
+   
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 500;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text, .header a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    font-style: normal;
+    text-align: right;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    padding: 48px;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border-width: 0px;
+}
 
 
+
+.header ul {
+    list-style-type: none;
+}
+.logo-text {
+    margin-left: 16px;
+    margin-right: auto;
+}
+
+
+
+.right-links {
+    display: flex;
+    margin-right: 16px;
+    gap: 16px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.font-selection {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+   flex-direction: column; 
+   align-items: center;
+   max-width: 200px;
+}
+
+.promo {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 36px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left {
+    flex: 4,1,auto;
+    min-width:75%;
+    font-weight: 300;
+}
+
+p {
+    line-height: 120%;
+}
+
+.white-button {
+    
+    border-radius: 4px;
+    border: 2px solid #F9FAF8;
+    padding: 8px 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+
+}
+
+.footer {
+    text-align: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 16px;
+}
